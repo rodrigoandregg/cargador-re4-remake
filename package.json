@@ -1,0 +1,33 @@
+{
+  "name": "cargador-re4-remake",
+  "version": "1.0.0",
+  "description": "cargador de balas resident evil 4 remake",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write .",
+    "lint": "eslint --fix . --ext .js,.jsx"
+  },
+  "keywords": [
+    "re4",
+    "cargador",
+    "pistola",
+    "leonkennedy"
+  ],
+  "author": "Rodrigo Andre Gutierrez <rodrigoandregutierrez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
